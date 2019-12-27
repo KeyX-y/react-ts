@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: "./src/index.tsx",
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'index.js'
   },
   devtool: 'source-map',
